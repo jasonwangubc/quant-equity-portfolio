@@ -1,15 +1,15 @@
 # Quant Equity Technology Portfolio
 
-This repository contains three end-to-end projects designed for quantitative equity technology teams.
-Each project mirrors a real investment engineering workflow: research, optimization, and production-facing monitoring.
+This repo has three projects built for quantitative equity technology roles.
+Together they cover the main workflow: research, portfolio construction, and risk monitoring.
 
-## Why this portfolio stands out
+## Why I built these
 
-- **Quant research depth:** factor construction, IC analysis, transaction costs, and walk-forward validation.
-- **Production engineering:** modular Python packages, tests, typed models, and API-first design.
-- **Optimization skills:** constrained portfolio construction with practical controls used by portfolio managers.
-- **Data + systems mindset:** high-performance local analytics using `duckdb` and vectorized pipelines.
-- **Communication quality:** every project includes a recruiter-friendly README with context, decisions, and trade-offs.
+- **End-to-end projects:** each one is runnable and tested, not just a notebook snippet.
+- **Practical quant problems:** factor quality, turnover-aware backtests, optimization constraints, and risk diagnostics.
+- **Clean engineering basics:** modular Python code, typed models, tests, and clear folder structure.
+- **Tooling that matches the domain:** `duckdb` for local analytics, FastAPI for internal services, Streamlit for PM/research visibility.
+- **Readable docs:** every project has a short README that explains assumptions, decisions, and possible extensions.
 
 ## Projects
 
@@ -60,6 +60,6 @@ data/
 
 ## Future upgrades
 
-- Add cloud-native orchestration (e.g., batch jobs and scheduled research pipelines).
-- Integrate real data providers and realistic slippage models.
-- Add CI/CD with quality gates and benchmark tracking.
+- Add scheduled batch runs so research and reporting update automatically.
+- Plug in real market data and more realistic slippage/impact assumptions.
+- Add CI checks and lightweight performance tracking over time.
